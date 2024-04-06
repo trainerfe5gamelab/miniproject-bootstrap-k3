@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Product */
+
+.product-section {
+  background-image: url("walpaper/bg-product.jpeg");
+  background-size: cover;
+}
+
+#product h2 {
+  color: white;
+}
+
+#product h3 {
+  color: white;
+  font-size: 3vw;
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: white;
+}
+
+.highlight {
+  color: #ff8a00;
+}
+
+.card-body {
+  background-color: #fee5d7;
+}
+
+.card-text {
+  color: black;
+}
+
+/* Contact */
+
+#contact {
+  background-image: url("walpaper/bg.contact.jpg");
+  background-size: cover;
+}
+
+#contact h2 {
+  color: white;
+}
+
+#contact h3 {
+  color: white;
+}
+
+.mb-3 input.form-control-lg {
+  height: 100px;
+}
+
+.contact-location img {
+  max-width: 100%; /* Memastikan gambar lokasi tidak melebihi lebar kontainer */
+}
+
+.map-image {
+  position: relative;
+}
+
+.map-caption {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(14, 13, 13, 0.7); /* Latar belakang warna pudar */
+}
+
+/* Footer */
+footer {
+  background-color: #ff8a00;
+  text-align: center;
+  padding: 20px;
+  margin-top: -20px;
+}
+
+footer .socials {
+  padding: 1rem 0;
+}
+
+footer .socials a {
+  color: #fff;
+  margin: 1rem;
+}
+
+footer .socials a:hover,
+footer .links a:hover {
+  color: #020202;
+}
+
+footer .links {
+  margin-bottom: 1.4rem;
+}
+
+footer .links a {
+  color: #fff;
+  padding: 0.7rem 1rem;
+}
+
+footer .credit {
+  font-size: 0.8rem;
+}
+
+footer .credit a {
+  color: #020202;
+  font-weight: 700;
+}
+
+/* Testimonials Section Styling */
+#testi {
+  background-image: url("walpaper/bg.testimoni.jpg");
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+.testimonial h3 {
+  color: #f8f9fa;
+}
+
+.testimonial {
+  background-color: #3d3d3d;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.rating {
+  color: #f8d64e; /* Yellow color for stars */
+  font-size: 50px;
+}
+
+.star {
+  margin-right: 5px;
+}
